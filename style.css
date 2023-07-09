@@ -1,0 +1,167 @@
+*{
+    box-sizing: 0;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    width: 100%;
+    height: 6rem;
+    background-color: rgb(31, 30, 135);
+}
+
+main{
+    background-color: rgba(32, 30, 135, 0.377);
+   
+}
+
+.dv-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    width: 25rem;
+    margin: 40px;
+}
+
+
+.titulo{
+    text-align: center;
+    font-size: 35px;
+    margin: 20px;
+}
+
+.sub-titulo{
+    text-align: center;
+    font-size: 28px;
+   
+}
+
+.container-videos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+
+}
+
+.Videos{
+    width: 500px;
+    margin: 50px;
+    
+}
+
+
+footer{
+    width: 100%;
+    height: auto;
+    background-color: rgb(255, 222, 89);
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p{
+    font-size: 25px;
+    margin: 20px;
+    color:rgb(31, 30, 135) ; 
+}
+
+a{
+    text-decoration: none;
+}
+
+.dv-direita{
+    display: flex;
+}
+
+.dv-googleplay{
+    width: 230px;
+    margin: 20px;
+}
+
+.imgapp{
+    height: 100px;
+    width: 7rem;
+    margin: 0 0  15px 15px;
+    border: solid 3px white;
+}
+
+.imgzap{
+    height:50px;
+    margin: 20px;
+    margin-left: 25px;
+}
+
+
+@media screen and (max-width: 520px ){
+
+    .Videos{
+        width: 400px;
+        margin: 50px;
+        
+    }
+
+    .dv-esquerda{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    a{
+        text-align: center;
+    }
+
+    .dv-googleplay{
+        width: 210px;
+    }
+    
+    .imgapp{
+        height: 90px;
+        width: 7rem;
+       
+        border: solid 3px white;
+    }
+    
+    .imgzap{
+        height:50px;
+        
+    }
+    .dv-direita{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+  
+
+  
+
+}
+
+@media screen and (max-width: 420px ){
+
+    .Videos{
+        width: 300px;
+        margin: 50px;
+        
+    }
+
+    
+
+}
+
+@media screen and (max-width: 320px ){
+
+    .Videos{
+        width: 260px;
+        margin: 50px;
+        
+    }
+
+
+}
